@@ -47,3 +47,15 @@ function bigOrSmall(arr){
 
   } return bigOrSmall
   }
+// CLASS REVISION
+function bigOrSmall(arr){
+  let answers = []
+ for(let i = (0); i< arr.length; i++){
+   if(arr[i] > 100){
+     answers.push(`big`)
+   } else answers.push(`SMALL`)  
+
+ } return answers
+ }
+let numArr = [140, 60, 900, 20, 750]
+bigOrSmall(numArr)
